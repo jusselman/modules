@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css"> -->
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Modules Explained</title>
+    </head>
+    <body>
+
+        <div class="text">
+          <h1>What the F is a module?</h1>
+          <p>Modules are used in javascript in order to maintain certain
+            pieces of code independent from each other. In this page's javascript
+            we see three modules: 1. Budget Controller 2. UI Controller 3. Controller.
+            The Controller module is necessary to make the other two communicate, thus
+            if we wanted to change either of the two former, we will still be able to use
+            whatever we replace them with. This can be seen in the JS file. In the Console,
+            type in budgetController.publicTest(), and fill it with whatever parameter you want.
+            you'll notice that this will utilize closure in over to capture the information saved
+            in the variables in Budget Controller which would otherwise be innacessible. 
+            </p>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  margin: 200px 400px;
+  background-image: url('bg.jpg');
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
